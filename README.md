@@ -2,6 +2,7 @@
 
 Este repositório foi utilizado na videoaula 2 do Curso FIC de Práticas de Versionamento de Código com Git.
 Alteração na branch 3.
+Nova alteração branch 2.
 
 ## Getting started
 
