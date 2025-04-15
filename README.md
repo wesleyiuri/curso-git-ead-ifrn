@@ -2,8 +2,8 @@
 
 Este repositório foi utilizado na videoaula 2 do Curso FIC de Práticas de Versionamento de Código com Git.
 Alteração na branch 3.
-Nova alteração branch 2.
-Adiciona nova linha para teste do MR.
+Adiciona linha para teste do MR e verificação do diff.
+Altera para verificar o comando diff.
 
 ## Getting started
 
