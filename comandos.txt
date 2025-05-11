@@ -1,0 +1,27 @@
+Wesley Iuri Dantas dos Santos
+cd /c/Users/Wesley/Documentos
+mkdir curso-git-ead-ifrn
+cd curso-git-ead-ifrn
+git clone https://gitlab.com/mizael.cortez/curso-branchs-ifrn-ead .
+git checkout main
+echo "Linha criada na main" > texto.txt
+git add texto.txt
+git commit -m "Cria texto.txt com conteúdo inicial na main"
+git checkout -b feature-1
+echo "Conteúdo alterado na feature-1" > texto.txt
+git add texto.txt
+git commit -m "Altera texto.txt na feature-1"
+git checkout main
+echo "Conteúdo alterado na main" > texto.txt
+git add texto.txt
+git commit -m "Altera texto.txt na main"
+git merge feature-1
+git add texto.txt
+git commit -m "Resolve conflito mantendo conteúdo da main"
+git checkout -b add-comandos
+echo "Wesley Iuri Dantas dos Santos" > comandos.txt
+git add comandos.txt
+git commit -m "Adiciona comandos utilizados na atividade"
+git remote add origin-atividade https://github.com/wesleyiuri/curso-git-ead-ifrn.git
+git push --force origin-atividade main
+git push origin-atividade add-comandos
